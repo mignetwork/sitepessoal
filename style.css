@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+body{
+    height: 100vh;
+}
+
+nav.menu-lateral{
+    width: 75px;
+    height: 100%;
+    background-color: rgb(7, 7, 14);
+    box-shadow: 3px 0 0 rgb(255, 255, 255);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .2s
+}
+
+nav.menu-lateral:hover{
+    width: 300px
+}
+
+.btn-expandir{
+    width: 100%;
+    padding: 10px;
+}
+
+.btn-expandir > i{
+    color: white;
+    font-size: 24px;
+    cursor: pointer
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+    
+}
+
+ul li.item-menu{
+    transition: 0.3s;
+}
+
+ul li.item-menu:hover{
+    background: rgb(255, 0, 0);
+}
+
+
+ul li.item-menu a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px 10%;
+    display: flex;
+    line-height: 40px;
+     
+}
+
+ul li.item-menu a .txt-link{
+    margin-left: 40px;
+}
+
+ul li.item-menu a .icon > i{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+body{
+    text-align: center;
+    background-color: rgb(44, 0, 0);
+
+}
+
+.título{
+    font-family:monospace; color: #fff;
+    
+}
+
+
+
+.euluke{
+    height: 270px;
+    padding-top: 50px;
+    border-radius: 5px;
+    
+}
+
+.aranha{
+    height: 220px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.gato{
+    border-radius: 5px;
+}
+    
+.paragrafo{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+footer{
+    background-color: black;
+    color: #fff;
+    padding: 30px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  
+  .começo {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px;
+  }
+
+  .habilidades{
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: red
+    
+  }
+  
+ .site{
+    font-size: 20px;
+    color:#fff
+    
+ }
+
+ .subsite{
+    color: #fff;
+    font-size: 20px;
+    padding-top: 10px;
+ }
