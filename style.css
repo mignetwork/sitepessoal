@@ -79,36 +79,6 @@ body{
 
 }
 
-.título{
-    font-family:monospace; color: #fff;
-    
-}
-
-
-
-.euluke{
-    height: 270px;
-    padding-top: 50px;
-    border-radius: 5px;
-    
-}
-
-.aranha{
-    height: 220px;
-    border-radius: 5px;
-    margin: 20px;
-}
-
-.gato{
-    border-radius: 5px;
-}
-    
-.paragrafo{
-    color: #fff;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
-}
-
 footer{
     background-color: black;
     color: #fff;
@@ -139,7 +109,7 @@ footer{
     background-color: black;
     color: white;
     text-align: center;
-    padding: 40px;
+    padding: 30px;
   }
 
   .habilidades{
@@ -162,3 +132,31 @@ footer{
     font-size: 20px;
     padding-top: 10px;
  }
+
+ .minhas{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif
+    
+    
+ }
+
+ div{
+    color: #ffffff;
+    
+ }
+
+ .coisas {
+    flex: 1;
+    padding-top: 150px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+
+  }
+
+  .steve{
+    height: 400px;
+    width: 500px;
+    padding-top: 10px;
+  }
+
+ 
